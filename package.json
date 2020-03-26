@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.js",
     "test": "echo \"Bummer: no test specified\" && exit 0",
     "start": "node server.js",
     "watch": "nodemon server.js"
